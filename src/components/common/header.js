@@ -1,5 +1,9 @@
+import { Link, NavLink } from "react-router-dom";
+
 export default function Header() {
-      return (
-        <header><h1>I Love Light</h1></header>
-      );
-    };
+  return (
+    <Link to="/">
+      <header><h1>I Love Lamp</h1></header>
+    </Link>
+  );
+};
